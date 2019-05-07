@@ -1,0 +1,278 @@
+2019-05-02 23:50:23 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-02 23:50:23 - Started 2188
+2019-05-02 23:53:30 - Stopping maaniserver.exe
+2019-05-02 23:53:30 - ProcessKill 2188
+2019-05-02 23:53:30 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-02 23:53:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-02 23:53:52 - Started 6384
+2019-05-03 00:03:06 - Stopping maaniserver.exe
+2019-05-03 00:03:06 - ProcessKill 6384
+2019-05-03 00:03:07 - Found child process: 2356 Name: conhost.exe
+2019-05-03 00:03:07 - Found child process: 8868 Name: node.exe
+2019-05-03 00:03:07 - Stopping process 2356
+2019-05-03 00:03:07 - Send SIGINT 2356
+2019-05-03 00:03:07 - SIGINT to 2356 failed - Killing as fallback
+2019-05-03 00:03:07 - Stopping process 8868
+2019-05-03 00:03:07 - Send SIGINT 8868
+2019-05-03 00:03:07 - SIGINT to 8868 failed - Killing as fallback
+2019-05-03 00:03:07 - Stopping process 6384
+2019-05-03 00:03:07 - Send SIGINT 6384
+2019-05-03 00:03:07 - SIGINT to 6384 failed - Killing as fallback
+2019-05-03 00:03:07 - Finished maaniserver.exe
+2019-05-03 00:03:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 00:03:08 - Started 20912
+2019-05-03 00:06:03 - Stopping maaniserver.exe
+2019-05-03 00:06:03 - ProcessKill 20912
+2019-05-03 00:06:03 - Found child process: 20832 Name: conhost.exe
+2019-05-03 00:06:03 - Found child process: 15736 Name: node.exe
+2019-05-03 00:06:03 - Stopping process 20832
+2019-05-03 00:06:04 - Send SIGINT 20832
+2019-05-03 00:06:04 - SIGINT to 20832 failed - Killing as fallback
+2019-05-03 00:06:04 - Stopping process 15736
+2019-05-03 00:06:04 - Send SIGINT 15736
+2019-05-03 00:06:04 - SIGINT to 15736 failed - Killing as fallback
+2019-05-03 00:06:04 - Stopping process 20912
+2019-05-03 00:06:04 - Send SIGINT 20912
+2019-05-03 00:06:04 - SIGINT to 20912 failed - Killing as fallback
+2019-05-03 00:06:04 - Finished maaniserver.exe
+2019-05-03 00:06:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 00:06:05 - Started 21940
+2019-05-03 00:07:12 - Stopping maaniserver.exe
+2019-05-03 00:07:12 - ProcessKill 21940
+2019-05-03 00:07:12 - Found child process: 21960 Name: conhost.exe
+2019-05-03 00:07:12 - Found child process: 22068 Name: node.exe
+2019-05-03 00:07:12 - Stopping process 21960
+2019-05-03 00:07:12 - Send SIGINT 21960
+2019-05-03 00:07:12 - SIGINT to 21960 failed - Killing as fallback
+2019-05-03 00:07:12 - Stopping process 22068
+2019-05-03 00:07:12 - Send SIGINT 22068
+2019-05-03 00:07:12 - SIGINT to 22068 failed - Killing as fallback
+2019-05-03 00:07:12 - Stopping process 21940
+2019-05-03 00:07:13 - Send SIGINT 21940
+2019-05-03 00:07:13 - SIGINT to 21940 failed - Killing as fallback
+2019-05-03 00:07:13 - Finished maaniserver.exe
+2019-05-03 00:07:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 00:07:21 - Started 20740
+2019-05-03 00:09:03 - Stopping maaniserver.exe
+2019-05-03 00:09:03 - ProcessKill 20740
+2019-05-03 00:09:03 - Found child process: 22384 Name: conhost.exe
+2019-05-03 00:09:03 - Found child process: 21616 Name: node.exe
+2019-05-03 00:09:04 - Stopping process 22384
+2019-05-03 00:09:04 - Send SIGINT 22384
+2019-05-03 00:09:04 - SIGINT to 22384 failed - Killing as fallback
+2019-05-03 00:09:04 - Stopping process 21616
+2019-05-03 00:09:04 - Send SIGINT 21616
+2019-05-03 00:09:04 - SIGINT to 21616 failed - Killing as fallback
+2019-05-03 00:09:04 - Stopping process 20740
+2019-05-03 00:09:04 - Send SIGINT 20740
+2019-05-03 00:09:04 - SIGINT to 20740 failed - Killing as fallback
+2019-05-03 00:09:04 - Finished maaniserver.exe
+2019-05-03 00:09:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 00:09:05 - Started 21876
+2019-05-03 00:09:44 - Stopping maaniserver.exe
+2019-05-03 00:09:44 - ProcessKill 21876
+2019-05-03 00:09:44 - Found child process: 21892 Name: conhost.exe
+2019-05-03 00:09:44 - Found child process: 13148 Name: node.exe
+2019-05-03 00:09:44 - Stopping process 21892
+2019-05-03 00:09:44 - Send SIGINT 21892
+2019-05-03 00:09:44 - SIGINT to 21892 failed - Killing as fallback
+2019-05-03 00:09:45 - Stopping process 13148
+2019-05-03 00:09:45 - Send SIGINT 13148
+2019-05-03 00:09:45 - SIGINT to 13148 failed - Killing as fallback
+2019-05-03 00:09:45 - Stopping process 21876
+2019-05-03 00:09:45 - Send SIGINT 21876
+2019-05-03 00:09:45 - SIGINT to 21876 failed - Killing as fallback
+2019-05-03 00:09:45 - Finished maaniserver.exe
+2019-05-03 00:09:46 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 00:09:46 - Started 21524
+2019-05-03 01:02:30 - Stopping maaniserver.exe
+2019-05-03 01:02:30 - ProcessKill 21524
+2019-05-03 01:02:30 - Found child process: 15236 Name: conhost.exe
+2019-05-03 01:02:30 - Found child process: 21748 Name: node.exe
+2019-05-03 01:02:30 - Stopping process 15236
+2019-05-03 01:02:30 - Send SIGINT 15236
+2019-05-03 01:02:30 - SIGINT to 15236 failed - Killing as fallback
+2019-05-03 01:02:30 - Stopping process 21748
+2019-05-03 01:02:30 - Send SIGINT 21748
+2019-05-03 01:02:30 - SIGINT to 21748 failed - Killing as fallback
+2019-05-03 01:02:30 - Stopping process 21524
+2019-05-03 01:02:30 - Send SIGINT 21524
+2019-05-03 01:02:30 - SIGINT to 21524 failed - Killing as fallback
+2019-05-03 01:02:30 - Finished maaniserver.exe
+2019-05-03 01:02:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 01:02:32 - Started 3588
+2019-05-03 01:55:42 - Stopping maaniserver.exe
+2019-05-03 01:55:42 - ProcessKill 3588
+2019-05-03 01:55:43 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-03 14:03:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 14:03:21 - Started 6788
+2019-05-04 18:09:53 - Stopping maaniserver.exe
+2019-05-04 18:09:53 - ProcessKill 6788
+2019-05-04 18:09:53 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-04 18:29:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-04 18:29:26 - Started 6584
+2019-05-05 02:46:44 - Stopping maaniserver.exe
+2019-05-05 02:46:44 - ProcessKill 6584
+2019-05-05 02:46:44 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-05 15:17:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-05 15:17:16 - Started 6848
+2019-05-05 20:06:22 - Stopping maaniserver.exe
+2019-05-05 20:06:23 - ProcessKill 6848
+2019-05-05 20:06:23 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-05 22:12:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-05 22:12:27 - Started 6568
+2019-05-06 06:51:30 - Stopping maaniserver.exe
+2019-05-06 06:51:30 - ProcessKill 6568
+2019-05-06 06:51:30 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-06 13:01:00 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-06 13:01:00 - Started 6904
+2019-05-06 15:13:56 - Stopping maaniserver.exe
+2019-05-06 15:13:56 - ProcessKill 6904
+2019-05-06 15:13:56 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-06 17:28:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-06 17:28:36 - Started 6824
+2019-05-07 01:46:44 - Stopping maaniserver.exe
+2019-05-07 01:46:44 - ProcessKill 6824
+2019-05-07 01:46:44 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-07 03:12:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-07 03:12:02 - Started 6928
+2019-05-07 05:51:35 - Stopping maaniserver.exe
+2019-05-07 05:51:35 - ProcessKill 6928
+2019-05-07 05:51:35 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-07 11:35:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-07 11:35:49 - Started 6852
+2019-05-07 12:40:50 - Stopping maaniserver.exe
+2019-05-07 12:40:50 - ProcessKill 6852
+2019-05-07 12:40:50 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-07 12:54:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-07 12:54:21 - Started 7036
+2019-05-07 13:59:55 - Stopping maaniserver.exe
+2019-05-07 13:59:55 - ProcessKill 7036
+2019-05-07 13:59:56 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-07 14:17:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-07 14:17:36 - Started 6572
+2019-05-07 15:56:27 - Stopping maaniserver.exe
+2019-05-07 15:56:27 - ProcessKill 6572
+2019-05-07 15:56:27 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-05-07 17:08:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\AbdEl\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "C:\Users\AbdEl\Desktop\Arabic Extention (Google Translate)\getMeaning\getMeaningFromMaani.js" --log "MaaniServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-07 17:08:22 - Started 6504
