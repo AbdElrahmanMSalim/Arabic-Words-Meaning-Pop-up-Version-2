@@ -5559,7 +5559,7 @@
             for (var e = d.src, f = Rh(Vh), g = [], k = [], l = d.sentences, m = 0; m < l.length; m++) g.push(l[m].orig), k.push(l[m].trans);
             g = g.join("");
             k = k.join("");
-            l = Wh("tl")[f].toUpperCase();
+            // l = Wh("tl")[f].toUpperCase();
             m = Wh("sl");
             var v = [],
                 J;
@@ -5575,6 +5575,9 @@
             };
             D(Xh, "Soy template may not be null.");
             // c.innerHTML = xe(Xh(d || we));
+            // request((res) => {
+            //     alert(res)
+            // }, b);
 
             request((res) => {c.innerHTML = res;}, b);
             d = Jd("gtx-lang-selector", c);
@@ -6193,35 +6196,18 @@
 //     console.log(a[0])
 //     return (a[0])
 // }
-function request(resolve, q) {
-    var xhr = new XMLHttpRequest();
-    
-    xhr.open('GET', 'https://www.almaany.com/ar/dict/ar-ar/' + q, true);
-    xhr.onload = function () {
-        if (this.status >= 200 && this.status < 300) {
-            resolve(xhr.response);
-        } else {
-            console.log(xhr.statusText)
-            // reject({
-            //     status: this.status,
-            //     statusText: xhr.statusText
-            // });
-        }
-    };
-    xhr.onerror = function () {
-        // reject({
-        //     status: this.status,
-        //     statusText: xhr.statusText
-        // });
-        console.log(xhr.statusText)
-    };
-
-    xhr.send();
-}
+// function request(resolve, q)
+// {
+//     var xmlHttp = new XMLHttpRequest();
+//     xmlHttp.open( "GET", "https://www.almaany.com/ar/dict/ar-ar/" + q ); // false for synchronous request
+//     xmlHttp.send( null );
+//     return xmlHttp.responseText;
+// }
 
 // function request(resolve, q) {
-//     let xhr = new XMLHttpRequest();
-//     xhr.open('GET', 'http://localhost:5001/' +q);
+//     var xhr = new XMLHttpRequest();
+    
+//     xhr.open('GET', 'https://www.almaany.com/ar/dict/ar-ar/' + q, true);
 //     xhr.onload = function () {
 //         if (this.status >= 200 && this.status < 300) {
 //             resolve(xhr.response);
@@ -6242,8 +6228,33 @@ function request(resolve, q) {
 //     };
 
 //     xhr.send();
-
 // }
+
+function request(resolve, q) {
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', 'http://localhost:5001/' +q);
+    xhr.onload = function () {
+        if (this.status >= 200 && this.status < 300) {
+            resolve(xhr.response);
+        } else {
+            console.log(xhr.statusText)
+            // reject({
+            //     status: this.status,
+            //     statusText: xhr.statusText
+            // });
+        }
+    };
+    xhr.onerror = function () {
+        // reject({
+        //     status: this.status,
+        //     statusText: xhr.statusText
+        // });
+        console.log(xhr.statusText)
+    };
+
+    xhr.send();
+
+}
 
 // function makeRequest(method, url) {
 //     return new Promise(function (resolve, reject) {
