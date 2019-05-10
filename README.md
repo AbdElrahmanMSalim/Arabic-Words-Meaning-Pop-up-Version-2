@@ -5,4 +5,4 @@ Also available a button named Find Meaning on right-click to open a chrome windo
 
 Following the behavior of Google Translate Pop-up
 
-<img style="-webkit-user-select: none;" src="https://im4.ezgif.com/tmp/ezgif-4-9ee7b0ee7388.gif">
+<img style="-webkit-user-select: none;" src="https://media.giphy.com/media/j24fdfmRNeP6ryRNJx/giphy.gif">
