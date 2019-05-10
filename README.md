@@ -5,5 +5,4 @@ Also available a button named Find Meaning on right-click to open a chrome windo
 
 Following the behavior of Google Translate Pop-up
 
-
-<video src="assests/1.mp4" width="320" height="200" controls preload></video>
+<iframe src='https://gfycat.com/ifr/DecentThinGalapagostortoise' frameborder='0' scrolling='no' allowfullscreen width='640' height='397'></iframe>
