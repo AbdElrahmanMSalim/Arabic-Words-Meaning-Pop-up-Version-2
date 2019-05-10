@@ -6,3 +6,5 @@ Also available a button named Find Meaning on right-click to open a chrome windo
 Following the behavior of Google Translate Pop-up
 
 <img style="-webkit-user-select: none;" src="https://media.giphy.com/media/j24fdfmRNeP6ryRNJx/giphy.gif">
+
+<video src="assets/1.mp4" width="320" height="200" controls preload></video>
