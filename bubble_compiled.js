@@ -5531,6 +5531,7 @@
     var Kj = function (a, b, c, d) {
         if ("" != a) {
             window.selection = a;
+            //here2
             a = new Ej("gtx", "https://translate.googleapis.com");
             var e = chrome.i18n.getUILanguage ? chrome.i18n.getUILanguage() : "en";
             d = d ? d : "auto";
@@ -6079,22 +6080,8 @@
         },
         jk = function (a, b, c, d) {
             b = b.getRangeAt(0).getBoundingClientRect();
-            if (0 != b.top || 0 != b.left)
-                if ("1" == Th.a) {
-                    var e = Sd(document, "div");
-                    e.className = "gtx-trans-icon";
-                    var f = Sd(document, "div");
-                    f.appendChild(e);
-                    f.id = "gtx-trans";
-                    f.style.position = "absolute";
-                    f.style.left = a.clientX + Md(document).scrollLeft - 13 + "px";
-                    a = a.clientY;
-                    a - b.top > b.height / 2 ? a = b.bottom + 1 : a = b.top - 1 - 27;
-                    f.style.top = a + Md(document).scrollTop + "px";
-                    document.body.appendChild(f);
-                    xc(f, "click", A(gk, b, c, d))
-                } else Kj(c, A(fk, b), "bubble",
-                    d)
+            //start todo
+            Kj(c, A(fk, b), "bubble",d)
         },
         ik = function (a, b) {
             var c = a.toString().trim();
@@ -6232,7 +6219,7 @@
 
 function request(resolve, q) {
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost:5001/' +q);
+    xhr.open('GET', 'https://nameless-journey-63399.herokuapp.com/' +q);
     xhr.onload = function () {
         if (this.status >= 200 && this.status < 300) {
             resolve(xhr.response);

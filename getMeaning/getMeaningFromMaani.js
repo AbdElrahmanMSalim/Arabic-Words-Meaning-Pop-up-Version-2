@@ -3,8 +3,8 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const express = require('express');
 const app = express();
-
-
+const helmet = require('helmet');
+const compression = require('compression');
 
 app.get('/:word', async (req, res) => {
 
@@ -12,22 +12,18 @@ app.get('/:word', async (req, res) => {
     console.log('I got a message' + searchWord);
 
     word = encodeURI(searchWord);
-    await request('https://www.almaany.com/ar/dict/ar-ar/' + word , (error, response, html) => {
-        if (!error && response.statusCode == 200) {
-            const $ = cheerio.load(html);
-            const meanings= $('.meaning-results');
-            
-            res.send(meanings.html() ? meanings.html() : "لم يفلح البحث")
-        }
-        else{
-            console.log(error)
-            res.status(404)
-        }
+    await request('https://www.almaany.com/ar/dict/ar-ar/' + word , function (error, response, html) {
+        console.log(error, response.statusCode)
+        const $ = cheerio.load(html);
+        const meanings= $('.meaning-results');
+        res.send(meanings.html() ? meanings.html() : "لم يفلح البحث");
+        
     })
 });
 
-app.listen(5001, () => {
-    console.log('listenning on 5001')
+const port = process.env.PORT || 3001
+app.listen(port, () => {
+    console.log(`listenning on ${port}`)
 })
 
 

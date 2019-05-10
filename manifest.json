@@ -1,7 +1,7 @@
 {
    "background": {
       "persistent": false,
-      "scripts": [ "injection.js", "main_compiled.js" ]
+      "scripts": ["background.js"]
    },
    "browser_action": {
       "default_icon": {
@@ -10,12 +10,12 @@
       },
       "default_title": "Arabic Maani"
    },
-   "content_scripts": [ {
+   "content_scripts": [{
       "all_frames": true,
-      "css": [ "bubble_gss.css" ],
-      "js": [ "bubble_compiled.js" ],
-      "matches": [ "\u003Call_urls>" ]
-   } ],
+      "css": ["bubble_gss.css"],
+      "js": ["bubble_compiled.js"],
+      "matches": ["\u003Call_urls>"]
+   }],
    "default_locale": "en",
    "description": "Arabic Maani",
    "icons": {
@@ -27,8 +27,7 @@
    },
    "manifest_version": 2,
    "name": "Get From Maani Pop-up",
-   "options_page": "options.html",
-   "permissions": [ "activeTab", "contextMenus", "storage" ],
-   "version": "2.0.7",
-   "web_accessible_resources": [ "popup_css_compiled.css", "options.html" ]
+   "permissions": ["activeTab", "contextMenus", "storage"],
+   "version": "2.0.0",
+   "web_accessible_resources": ["popup_css_compiled.css", "options.html"]
 }

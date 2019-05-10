@@ -9,7 +9,7 @@ function injection() {
   var cbId = 'TECB_' + uid;
 
   function show() {
-    window.setTimeout(function() {
+    window.setTimeout(function () {
       window[teId].showBanner(true);
     }, 10);
   }
@@ -28,16 +28,17 @@ function injection() {
     show();
   } else {
     if (!window.google || !google.translate ||
-        !google.translate.TranslateElement) {
+      !google.translate.TranslateElement) {
       if (!window[cbId]) {
-        window[cbId] = function() {
+        window[cbId] = function () {
           window[teId] = newElem();
           show();
         };
       }
       var s = document.createElement('script');
       s.src = 'https://translate.google.com/translate_a/element.js?cb=' +
-              encodeURIComponent(cbId) + '&client=tee&hl=' + userLang;
+        encodeURIComponent(cbId) + '&client=tee&hl=' + userLang;
+
       document.getElementsByTagName('head')[0].appendChild(s);
     }
   }
