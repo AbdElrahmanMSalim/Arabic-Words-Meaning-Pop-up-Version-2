@@ -5,4 +5,4 @@ Also available a button named Find Meaning on right-click to open a chrome windo
 
 Following the behavior of Google Translate Pop-up
 
-<iframe src="https://giphy.com/embed/IhldlCOgol7dAXak3j" width="480" height="266" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IhldlCOgol7dAXak3j">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/IhldlCOgol7dAXak3j" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/IhldlCOgol7dAXak3j">via GIPHY</a></p>
