@@ -4,3 +4,5 @@ A chrome extension that pops-up with the meaning of the selected word immediatel
 Also available a button named Find Meaning on right-click to open a chrome window on the side with the meanings in almaany site.
 
 Following the behavior of Google Translate Pop-up
+
+<iframe src="https://giphy.com/embed/IhldlCOgol7dAXak3j" width="480" height="266" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IhldlCOgol7dAXak3j">via GIPHY</a></p>
