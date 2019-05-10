@@ -5,6 +5,6 @@ Also available a button named Find Meaning on right-click to open a chrome windo
 
 Following the behavior of Google Translate Pop-up
 
-<img style="-webkit-user-select: none;" src="https://gfycat.com/decentthingalapagostortoise">
+<img style="-webkit-user-select: none;" src="https://thumbs.gfycat.com/DecentThinGalapagostortoise-size_restricted.gif">
 
 <video src="assests/1.mp4" width="320" height="200" controls preload></video>
