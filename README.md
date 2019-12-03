@@ -5,4 +5,23 @@ Also available a button named Find Meaning on right-click to open a chrome windo
 
 Following the behavior of Google Translate Pop-up
 
-<img style="-webkit-user-select: none;" src="https://media.giphy.com/media/j24fdfmRNeP6ryRNJx/giphy.gif">
+<img style="-webkit-user-select: none;" src="https://thumbs.gfycat.com/DecentThinGalapagostortoise-size_restricted.gif">
+
+# How to install
+
+1- Clone this repository to your PC, or simply download it from here:
+https://bit.ly/2PW5Vpq
+then extract it.
+
+2- Open Google Chrome
+
+3- Go to extentions 
+(simply by typing: chrome://extensions/ in the address bar)
+
+4- Activate Developer mode at the top right corner.
+
+5- Press Load unpacked at the top left corner.
+
+6- Choose the folder where the downloaded extension is located.
+
+7- Enjoy!
